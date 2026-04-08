@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23f11e23-f384-4d2e-bff9-3923ec237e5e" name="Changes" comment="" />
+    <list default="true" id="23f11e23-f384-4d2e-bff9-3923ec237e5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krapivko/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krapivko/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krapivko/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krapivko/config/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krapivko/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krapivko/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krapivko/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krapivko/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krapivko/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krapivko/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/krapivko/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/krapivko/service/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;krapivkovladimir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/krapivkovladimir/2.3.1_Spring_MVC-Hibernate.git&quot;,
+    &quot;accountId&quot;: &quot;8daff329-cfb4-4b72-acae-7a716f08b19a&quot;
+  }
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -49,6 +70,8 @@
     "JavaScript Debug.users.jsp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 9.0.116.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -296,7 +319,8 @@
       <workItem from="1775575520072" duration="6796000" />
       <workItem from="1775583673054" duration="1682000" />
       <workItem from="1775585386252" duration="408000" />
-      <workItem from="1775585814829" duration="3466000" />
+      <workItem from="1775585814829" duration="3599000" />
+      <workItem from="1775652812541" duration="3023000" />
     </task>
     <servers />
   </component>

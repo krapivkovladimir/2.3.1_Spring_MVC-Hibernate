@@ -16,7 +16,7 @@ import java.util.Properties;
 @Configuration
 @ComponentScan(basePackages = {"ru.krapivko.service", "ru.krapivko.dao"})
 @EnableTransactionManagement
-public class AppConfig {
+public class HibernateConfig {
 
     @Bean
     public DataSource dataSource() {

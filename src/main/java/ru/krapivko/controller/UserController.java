@@ -20,7 +20,7 @@ public class UserController {
     }
 
     @GetMapping({"", "/"})
-    public String getAllusers(Model model) {
+    public String getAllUsers(Model model) {
         model.addAttribute("users", userService.getAllUsers());
         model.addAttribute("user", new User());
         return "users";
@@ -30,7 +30,7 @@ public class UserController {
     public String addUser(@RequestParam("name") String name,
                           @RequestParam("lastname") String lastname,
                           @RequestParam("age") Integer age) {
-        userService.saveUser(new User(name, lastname, age));
+        userService.createUser(name, lastname, age);
         return "redirect:/users";
     }
 
@@ -45,12 +45,7 @@ public class UserController {
                              @RequestParam("name") String name,
                              @RequestParam("lastname") String lastname,
                              @RequestParam("age") Integer age) {
-        User user = new User();
-        user.setId(id);
-        user.setName(name);
-        user.setlastname(lastname);
-        user.setAge(age);
-        userService.updateUser(user);
+        userService.updateUser(id, name, lastname, age);
         return "redirect:/users";
     }
 
